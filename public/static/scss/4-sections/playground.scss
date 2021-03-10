@@ -1,0 +1,126 @@
+.story-panel {
+  display: flex;
+  z-index: 1;
+  .subjects {
+    font-family: $default-font-family-name;
+    font-size: 14px;
+    justify-content: space-between;
+    position: relative;
+    .label {
+      margin-left: 10px !important;
+    }
+  }
+  .back-frame-yellow {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 655px;
+    height: 670px;
+    margin: auto;
+    padding: 0px;
+    border-left: 4px solid $theme-color--blue2;
+    border-right: 4px solid $theme-color--blue2;
+    border-bottom: 1px solid $theme-color--blue2;
+    background-color: #ffffcc;
+    .label-container {
+      font-family: $default-font-family-name;
+      font-size: 11px;
+      padding-top: 10px;
+      padding-right: 10px;
+      .words-of-day {
+        margin-top: -34px;
+        margin-left: -3px;
+        position: relative;
+        z-index: 2;
+        span {
+          width: 135px;
+        }
+      }
+      .label-left {
+        float: left;
+        display: flex;
+        align-items: center;
+        img {
+          margin-left: 5px;
+          z-index: 5;
+        }
+      }
+      .label-right {
+        float: right;
+        position: relative;
+        z-index: 2;
+        p {
+          padding-right: 24px;
+          margin-top: 4px;
+          margin-bottom: 0px;
+        }
+        .words-amount {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          padding-right: 21px;
+          img {
+            margin-left: 5px;
+          }
+        }
+        .image-reset {
+          text-align: right;
+          padding-right: 21px;
+          padding-top: 5px;
+          img {
+            &.disabled {
+              background-color: gray;
+              border-color: gray;
+              pointer-events: none;
+              opacity: 0.4;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .back-frame-gray-shadow {
+    position: relative;
+    top: 200px;
+    bottom: 0px;
+    left: 9px;
+    right: 0px;
+    width: 589px;
+    height: 421px;
+    margin: auto;
+    margin-left: 25px;
+    padding: 0px;
+    border: 0px;
+    background-color: #7f7f7f;
+    .story-text-editor {
+      position: absolute;
+      top: -10px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 590px;
+      height: 420px;
+      margin: auto;
+      margin-left: -7px;
+      padding: 0px;
+      border: 1px solid $theme-color--blue2;
+      background-color: #effaff;
+      overflow: scroll;
+      &.started {
+        background-color: #fff;
+      }
+    }
+  }
+
+  .btn-group {
+    position: relative;
+    border: 0px;
+    width: 641px;
+    height: auto;
+    margin-top: 213px;
+    margin-left: 27px;
+  }
+}

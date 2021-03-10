@@ -1,0 +1,32 @@
+.controller-panel {
+  margin-top: 48px;
+  font-family: $default-font-family-name;
+  font-size: 12px;
+  display: flex;
+  margin: 60px auto;
+  width: 663px;
+  align-items: center;
+  select {
+    font-family: $default-font-family-name;
+    color: $theme-color--red1;
+    height: 21px;
+    width: 151px;
+    margin-left: 5px;
+  }
+  label {
+    margin-left: 5px;
+  }
+  button {
+    font-family: $default-font-family-name;
+    height: 21px;
+    width: 36px;
+    font-weight: bold;
+    background-color: lightblue #bdd7ee;
+  }
+  .arrow {
+    margin-left: 20px;
+  }
+  img:first-child {
+    margin-left: 9px;
+  }
+}

@@ -1,0 +1,43 @@
+.TopHeaderContainer {
+  position: relative;
+  padding: 0px;
+  margin-top: 0px;
+  background-color: #ffffff;
+  border: 0px;
+  width: 100%;
+  height: 33px;
+  vertical-align: middle;
+  .BlueClowd {
+    position: relative;
+    padding: 0px;
+    border: 0px;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    margin-top: -34px;
+    text-align: center;
+  }
+  .LogoImaginaword {
+    position: relative;
+    padding-top: 0px;
+    padding-right: 40px;
+    border: 0px;
+    margin-top: 0px;
+    width: auto;
+    height: 40px;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .QuestionWordList {
+    margin-top: -100px;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS',
+      sans-serif;
+    min-height: 57px;
+    div {
+      label {
+        margin-left: 10px;
+      }
+    }
+  }
+}

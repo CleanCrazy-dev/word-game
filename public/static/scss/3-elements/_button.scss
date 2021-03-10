@@ -1,0 +1,55 @@
+.button {
+  border: 1px solid $theme-color--blue2;
+  margin-top: 0px;
+  margin-left: 0px;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+  font-family: $default-font-family-name;
+  padding-bottom: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  width: 118px;
+  &:hover {
+    background-color: $theme-color--blue1;
+    color: white;
+  }
+  &:active {
+    background-color: $theme-color--blue1;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+  }
+  &.small-button {
+    width: 25px;
+  }
+  &.disabled {
+    background-color: gray;
+    border-color: gray;
+    pointer-events: none;
+    opacity: 0.4;
+  }
+}
+.button-publish {
+  background-color: $theme-color--violet1;
+}
+.button-video {
+  background-color: $black;
+}
+.button-start-over {
+  // color: $theme-color--red4;
+  background-color: $theme-color--yellow-3;
+}
+.button-pause {
+  background-color: $theme-color--red1;
+}
+.button-delete {
+  background-color: $theme-color--red3;
+}
+.button-share {
+  background-color: $theme-color--blue2;
+}
+.button-start {
+  background-color: $theme-color--green;
+}

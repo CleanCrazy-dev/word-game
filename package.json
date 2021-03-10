@@ -1,0 +1,49 @@
+{
+  "name": "imagin-word",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "buildnstart": "next build & next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@zeit/next-css": "^1.0.1",
+    "css-loader": "^5.1.1",
+    "dayjs": "^1.10.4",
+    "dotenv": "^8.2.0",
+    "firebase": "^8.2.10",
+    "immutability-helper": "^3.1.1",
+    "immutable": "^4.0.0-rc.12",
+    "import-glob-loader": "^1.1.0",
+    "isomorphic-fetch": "^3.0.0",
+    "lodash": "^4.17.21",
+    "next": "10.0.8",
+    "next-images": "^1.7.0",
+    "react": "17.0.1",
+    "react-contenteditable": "^3.3.5",
+    "react-dom": "^17.0.1",
+    "react-infinite-scroll-component": "^6.0.0",
+    "react-redux": "^7.2.2",
+    "react-spinners": "^0.10.6",
+    "react-toastify": "^7.0.3",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-saga": "^1.1.3",
+    "reselect": "^4.0.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "styled-components": "^5.2.1",
+    "webpack": "^5.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.32",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.1",
+    "gts": "^3.1.0",
+    "typescript": "^4.2.3"
+  }
+}
